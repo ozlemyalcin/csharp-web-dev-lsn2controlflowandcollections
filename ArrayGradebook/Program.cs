@@ -30,7 +30,7 @@ namespace ArrayGradebook
                     numStudents++;
                 }
 
-            } while (!Equals(newStudent, ""));
+            } while (!Equals(newStudent, "")&& numStudents<maxStudents);
 
             // Get student grades
             for (int i = 0; i < numStudents; i++)
